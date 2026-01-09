@@ -10,7 +10,7 @@ func attack(pos Position) {
 	pos.attacked = true;
 	
 	if (pos.shipReference != nil) {
-		pos.shipReference.hitCount += 1;
+		pos.shipReference.HitCount += 1;
 	}
 }
 

@@ -1,17 +1,17 @@
 package game
 
 type Ship struct {
-	name string;
-	size int;
-	hitCount int;
-	horizontal bool;
+	Name string;
+	Size int;
+	HitCount int;
+	Horizontal bool;
 }
 
 func isDestroyed(s *Ship) bool {
-	return s.hitCount >= s.size;
+	return s.HitCount >= s.Size;
 }
 
 func isHorizontal(s *Ship) bool {
-	return s.horizontal;
+	return s.Horizontal;
 }
 
