@@ -1,11 +1,14 @@
 package main
 import (
+	"github.com/allanjose001/go-battleship/UI"
 	"github.com/allanjose001/go-battleship/game"
 	"fmt"
 )
 
 func main() {
 	fmt.Println("Backend is running...");
+	
+	ui.Run();
 
 	board1 := new(game.Board);
 
