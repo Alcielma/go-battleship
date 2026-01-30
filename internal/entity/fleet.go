@@ -4,7 +4,7 @@ type Fleet struct {
 	Ships [5]*Ship
 }
 
-func NewFleet() *Fleet {
+func _() *Fleet {
 	fleet := &Fleet{}
 
 	fleet.Ships[0] = &Ship{Name: "Porta-Aviões", Size: 6, Horizontal: true}
